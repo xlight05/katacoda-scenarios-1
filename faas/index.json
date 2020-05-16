@@ -20,11 +20,9 @@
   },
   "files": [],
   "environment": {
-    "uilayout": "editor-terminal",
-    "uieditorpath": "/root/workspace",
-    "showdashboard": true
+    "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "ubuntu:1804"
+    "imageid": "ubuntu"
   }
 }
