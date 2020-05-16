@@ -1,0 +1,16 @@
+{
+    "courses": [
+      {
+        "title": "Cellery",
+        "description": "This course contains series of tutorials about Cellery",
+        "id": "cellery"
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "FaaS: Code Driven Vendor Neutral Packaging for Serverless",
+        "description": "A definition language that allows developers to declare serverless compositions without being locked in to a vendor",
+        "id": "faas"
+      }
+    ]
+  }

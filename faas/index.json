@@ -1,0 +1,30 @@
+{
+  "title": "FaaS: Code Driven Vendor Neutral Packaging for Serverless",
+  "description": "A definition language that allows developers to declare serverless compositions without being locked in to a vendor",
+  "details": {
+    "steps": [
+      {
+        "title": "Preparing the environment",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": [],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/workspace",
+    "showdashboard": true
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}

@@ -1,0 +1,1 @@
+FaaS is a definition language that allows developers to declare serverless compositions without being locked in to a vendor. Developers can compile the defined composition during compile time to any cloud provider. Currently, AWS and Knative are supported.
