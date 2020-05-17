@@ -1,10 +1,8 @@
 FaaS is a definition language that allows developers to declare serverless compositions without being locked in to a vendor. Developers can compile the defined composition during compile time to any cloud provider. Currently, AWS and Knative are supported as the target cloud providers.
 
-Click on the following command to download FaaS compiler.
-`wget https://github.com/xlight05/codefass/releases/download/0.1-pre/fass`{{execute}}
+Click on the following command to download FaaS compiler and add it to bin file to access globally.
+`wget https://github.com/xlight05/codefass/releases/download/0.1-pre/fass && chmod +x fass && cp fass /bin`{{execute}}
 
-Copy the executable for bin directory to access it globally.
-`cp fass /bin`{{execute}}
 
 Great! You now have a running Faas Compiler running. 
 
@@ -14,11 +12,11 @@ Let’s download a sample serverless project that has four components.
 Now lets create the Definition file in order to orchastrate the serverless functions.
 
 Open the definition file.
-`demo.fass`{{open}}
+`fyp-demo/demo.fass`{{open}}
 
 
 Copy the following code to the file.
-<pre class="file" data-filename="demo.fass" data-target="prepend">
+<pre class="file" data-filename="fyp-demo/demo.fass" data-target="prepend">
 function seq1 = {
     name:"sequenceOne"
     handler:"seq1/app.js"
