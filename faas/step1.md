@@ -54,5 +54,8 @@ Finally, its time to generate the clcoud provider native artifacts.
 Generate AWS Artifacts
 `fass build aws`{{execute}}
 
+Set the docker username
+`fass config -u name`{{execute}}
+
 Generate Knative Artifacts
 `fass build knative`{{execute}}
